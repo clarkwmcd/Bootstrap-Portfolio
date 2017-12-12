@@ -9,15 +9,24 @@
 			background-image: url("images/concrete.png");
 		}
 
-		nav {
+		.container-width {
+			width: 960px;
 			background-color: white;
 		}
 
-		.container {
-			width: 960px;
+		.nav-right {
+			float: right;
 		}
 
-		#aboutMe {
+		.nav-left {
+			float: left;
+		}
+
+		.background-color {
+			background-color: white;
+		}
+
+		.custom-container {
 			float: left;
 			width: 630px;
 			margin-right: 20px;
@@ -44,17 +53,6 @@
 			padding-top: 5px;
 		}
 
-		#navigation {
-			float: right;
-		}
-
-		#myName {
-			height: 100px;
-			background-color: #4aaaa5;
-			vertical-align: middle;
-			line-height: 100px;
-		}
-
 
 		footer {
 			clear: both;
@@ -73,29 +71,30 @@
 			font-family: 'Georgia', Times, Times New Roman, serif;
 		}
 		
-		#contactForm {
-			float: left;
-			width: 630px;
-			margin-right: 20px;
-			background-color: white;
-			margin-top: 20px;
-			padding: 20px;
-			margin-bottom: 20px;
-		}
-
-		#portfolioImages{
-			float: left;
-			width: 630px;
-			margin-right: 20px;
-			background-color: white;
-			margin-top: 20px;
-			padding: 20px;
-			margin-bottom: 20px;
-		}
-
 		.btn-primary{
 
 			background-color: #4aaaa5;
+			border-color: #4aaaa5;
+		}
+
+		#icon {
+			background-color: #4aaaa5;
+			color: white;
+			padding: 20px;
+			font-family: 'Georgia', Times, Times New Roman, serif;
+
+			
+		}
+
+		.navbar{
+			padding: 0;
+		}
+		.card-title {
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			background-color: #4aaaa5;
+			color: white;
+			padding: 10px;
+
 		}
 
 	
