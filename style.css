@@ -5,12 +5,64 @@
 
 		}
 
+						/* Small devices (landscape phones, 576px and up)*/
+		@media screen (min-width: 576px) {
+			.container-width {
+				width: 100% !important;
+				
+			}
+
+			#connectWithMe {
+				width: 100% !important;
+				
+			}
+		}
+
+		/*// Medium devices (tablets, 768px and up)*/
+		@media (min-width: 768px) {
+			.container-width {
+				width: 100% !important;
+				
+			}
+
+			.custom-container {
+				width: 66.6% !important;
+
+			}
+
+			#connectWithMe {
+				width: 33.3% !important;
+				
+			}
+		}
+
+		/*// Large devices (desktops, 992px and up)*/
+		@media (min-width: 992px) {
+			.container-width {
+				width: 960px !important;
+				
+			}
+
+			.custom-container {
+				width: 630px !important;
+
+			}
+
+			#connectWithMe {
+				width: 270px !important;
+				
+			}
+		}
+
+		/*// Extra large devices (large desktops, 1200px and up)*/
+
+
 		body {
 			background-image: url("images/concrete.png");
 		}
 
 		.container-width {
-			width: 960px;
+			/*width: 960px;*/
 			background-color: white;
 		}
 
@@ -28,23 +80,24 @@
 
 		.custom-container {
 			float: left;
-			width: 630px;
+			/*width: 630px;*/
 			margin-right: 20px;
 			background-color: white;
 			margin-top: 20px;
 			padding: 20px;
-			margin-bottom: 20px;
+			margin-bottom: ;
 		}
 
 		#connectWithMe {
 			color: #4aaaa5;
 			font-family: 'Georgia', Times, Times New Roman, serif;
 			float: left;
-			width: 270px;
+			/*width: 270px;*/
 			text-align: center;
 			background-color: white;
 			margin-top: 20px;
 			padding: 20px;
+			margin-right: 20px;
 		}
 
 		#profilePicture {
@@ -64,6 +117,7 @@
 			border-color: #4aaaa5;
 			border-top-width: 10px;
 			font-size: 15px;
+			margin-top: 10px;
 		}
 
 		h3 {
