@@ -9,12 +9,12 @@
 		@media screen (min-width: 576px) {
 			.container-width {
 				width: 100% !important;
-				
+
 			}
 
 			#connectWithMe {
 				width: 100% !important;
-				
+
 			}
 		}
 
@@ -22,7 +22,7 @@
 		@media (min-width: 768px) {
 			.container-width {
 				width: 100% !important;
-				
+
 			}
 
 			.custom-container {
@@ -32,7 +32,7 @@
 
 			#connectWithMe {
 				width: 33.3% !important;
-				
+
 			}
 		}
 
@@ -40,7 +40,7 @@
 		@media (min-width: 992px) {
 			.container-width {
 				width: 960px !important;
-				
+
 			}
 
 			.custom-container {
@@ -50,7 +50,7 @@
 
 			#connectWithMe {
 				width: 270px !important;
-				
+
 			}
 		}
 
@@ -124,7 +124,7 @@
 			color: #4aaaa5;
 			font-family: 'Georgia', Times, Times New Roman, serif;
 		}
-		
+
 		.btn-primary{
 
 			background-color: #4aaaa5;
@@ -137,7 +137,7 @@
 			padding: 20px;
 			font-family: 'Georgia', Times, Times New Roman, serif;
 
-			
+
 		}
 
 		.navbar{
@@ -150,5 +150,3 @@
 			padding: 10px;
 
 		}
-
-	
